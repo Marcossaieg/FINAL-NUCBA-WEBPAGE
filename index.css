@@ -305,7 +305,7 @@ width: 100%;
     justify-content: initial;
     align-items: initial;
 }
-.subtitulo-pack-chardonnay{
+.subtitulo-pack-blend{
     width: 100%;
     font-size: 3rem;
     font-weight: 500;
@@ -313,19 +313,68 @@ width: 100%;
     justify-content: initial;
     align-items: initial;
 }
-.contenedor-pack-chardonnay{
+.contenedor-pack-blend1{
     width: 100%;
     display: flex;
     flex-direction:row;
     justify-content: space-around;
     align-items: center;
 }
-.contenedor-imagen-pack-chardonnay{
-    width: 50%;
+.contenedor-imagen-pack-blend{
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.imagen-pack-chardonnay{
+.imagen-pack-blend{
     width: 100%;
 }
+.contenedor-desc-img-pack-blend{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc-img-pack-blend{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    list-style: none;
+}
+.contenedor-precio-blend{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: burlywood;
+    color: black;
+    font-size: 2.5rem;
+    list-style: none;
+}
+.contenedor-agregar-carrito{
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-agregar-el-carro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+.agregar-carrito{
+    padding: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+
+}
+/*ACA DEBERIA AGREGAR BUTON, Y QUE REDIRECCIONE A ALGUN  SCRIPT*/
+
