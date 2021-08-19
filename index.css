@@ -132,7 +132,7 @@ width: 100%;
     justify-content: center;
     align-items: center;
     width: 95vw;
-    height: 80vh;    
+        
 }
 .img-header{
     width: 85vw;
@@ -141,21 +141,144 @@ width: 100%;
     margin-top: 2rem;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 .cont-titulo-quienes-somos{
     width:100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 .titulo-quienes-somos{
+    margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
-    font-size: 6rem;
+    width: 40vw;
+    font-size: 10rem;
     font-weight: 900;
+}
+.linea-division{
+    /* me falta estilar la linea entre quienes
+     somos y el contenido del texto */
+
+    
+}
+.desc-quienes-somos{
+    width: 50vw;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.galeria-quienes-somos{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contenedor-galeria{
+    margin-top: 2.5rem;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cajas-galeria{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.todo-vino{
+    margin-top: 2.5rem;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contenedor-section-todo-vino{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
+
+}
+.titulo-vinos{
+    width: 88vw;
+    font-size: 6rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+}
+.vino-tinto{
+    width: 88vw;
+    font-size: 4rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+}
+.contenedor-cepas-vino{
+    padding-top: 2rem;
+    width: 88vw;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.cepa-vino{
+    margin: 1rem;
+}
+.vino-tinto-2-linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.vino-rosado-naranjo{
+    margin-top: 2.5rem;
+    width: 88vw;
+    font-size: 4rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+}
+.vino-rosado-naranjo-2-linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.vino-blanco{
+    margin-top: 2.5rem;
+    width: 88vw;
+    font-size: 4rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+}
+.vino-blanco-2-linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5rem; 
 }
