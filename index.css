@@ -1,9 +1,5 @@
-html{
+*{  
     font-size: 62.5%;
-    margin: 0;
-    padding: 0;
-}
-*{
     margin: 0;
     padding: 0;
     font-family: Roboto;
@@ -20,18 +16,26 @@ html{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 .contenedor-nav{
-    width: 98vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: white;
 }
+.menu-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
 .logo-nav{
-    width: 15vw;
+    width: 12%;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -41,18 +45,9 @@ html{
 .cyt-logo{
 width: 100%;
 }
-
-.menu-nav{
-     width: 100%;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     list-style: none;
-     text-decoration: none;
-}
 .lista-nav{
     font-family: Roboto;
-    width: 11vw;
+    width: 11%;
     font-size: large;
     display: flex;
     justify-content: center;
@@ -71,7 +66,7 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 11vw;
+    width: 100%;
     font-size: large;
     border: none;
     color: black;
@@ -92,14 +87,14 @@ width: 100%;
 }
 
 .contenedor-icono-nav{
-    width: 7vw;
+    width: 10%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 
 }
 .icono-nav{
-    width:3.5vw;
+    width:50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,44 +104,43 @@ width: 100%;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    width: 50%;
+    width: 2.1rem;
     
 }
 .icono-whatsapp{
-    width: 100%;
+    width: 2.1rem;
 }
 .link-instagram{
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    width: 50%;
+    width: 2.1rem;
 }
 .icono-instagram{
-    width: 100%;
+    width: 2.1rem;
 }
 
 .div-foto-header{
-    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95vw;
+    width: 100%;
         
 }
 .img-header{
-    width: 85vw;
+    width: 100%;
 }
 .section-quienes-somos{
     margin-top: 2rem;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 .cont-titulo-quienes-somos{
-    width:100vw;
+    width:100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -155,9 +149,9 @@ width: 100%;
 .titulo-quienes-somos{
     margin: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 40vw;
+    width: 35%;
     font-size: 10rem;
     font-weight: 900;
 }
@@ -167,15 +161,21 @@ width: 100%;
 
     
 }
+.p-contenedor-quienes-somos{
+    width: 50%;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+}
 .desc-quienes-somos{
-    width: 50vw;
-    text-align: center;
-    font-size: 2rem;
+    
+    text-align: initial;
+    font-size: 1rem;
     
 }
 
 .galeria-quienes-somos{
-    width: 90vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -184,14 +184,14 @@ width: 100%;
 }
 .contenedor-galeria{
     margin-top: 2.5rem;
-    width: 80vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 .cajas-galeria{
-    width: 20vw;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,14 +200,14 @@ width: 100%;
 
 .todo-vino{
     margin-top: 2.5rem;
-    width: 90vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 .contenedor-section-todo-vino{
-    width: 95vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: initial;
@@ -215,7 +215,7 @@ width: 100%;
 
 }
 .titulo-vinos{
-    width: 88vw;
+    width: 100%;
     font-size: 6rem;
     font-weight: 700;
     display: flex;
@@ -223,7 +223,7 @@ width: 100%;
     align-items: initial;
 }
 .vino-tinto{
-    width: 88vw;
+    width: 100%;
     font-size: 4rem;
     font-weight: 500;
     display: flex;
@@ -232,7 +232,7 @@ width: 100%;
 }
 .contenedor-cepas-vino{
     padding-top: 2rem;
-    width: 88vw;
+    width: 100%;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -252,7 +252,7 @@ width: 100%;
 }
 .vino-rosado-naranjo{
     margin-top: 2.5rem;
-    width: 88vw;
+    width: 100%;
     font-size: 4rem;
     font-weight: 500;
     display: flex;
@@ -268,7 +268,7 @@ width: 100%;
 }
 .vino-blanco{
     margin-top: 2.5rem;
-    width: 88vw;
+    width: 100%;
     font-size: 4rem;
     font-weight: 500;
     display: flex;
@@ -281,4 +281,51 @@ width: 100%;
     justify-content: space-around;
     align-items: center;
     margin-top: 2.5rem; 
+}
+.pack-blends{
+    width: 100%;
+    font-size: 6rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+}
+.contenedor-pack-blends{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.titulo-pack-blends{
+    width: 100%;
+    font-size: 7rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+}
+.subtitulo-pack-chardonnay{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+}
+.contenedor-pack-chardonnay{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor-imagen-pack-chardonnay{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-pack-chardonnay{
+    width: 100%;
 }
