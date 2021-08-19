@@ -284,8 +284,6 @@ width: 100%;
 }
 .pack-blends{
     width: 100%;
-    font-size: 6rem;
-    font-weight: 700;
     display: flex;
     justify-content: initial;
     align-items: initial;
@@ -306,6 +304,7 @@ width: 100%;
     align-items: initial;
 }
 .subtitulo-pack-blend{
+    margin-top: 2rem;
     width: 100%;
     font-size: 3rem;
     font-weight: 500;
@@ -313,7 +312,7 @@ width: 100%;
     justify-content: initial;
     align-items: initial;
 }
-.contenedor-pack-blend1{
+.contenedor-pack-blend{
     width: 100%;
     display: flex;
     flex-direction:row;
@@ -377,4 +376,147 @@ width: 100%;
 
 }
 /*ACA DEBERIA AGREGAR BUTON, Y QUE REDIRECCIONE A ALGUN  SCRIPT*/
+.subtitulo-pack-blend1{
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+}
+.contenedor-pack-blend1{
+    width: 100%;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor-imagen-pack-blend1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-pack-blend1{
+    width: 100%;
+}
+.contenedor-desc-img-pack-blend1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc-img-pack-blend1{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    list-style: none;
+}
+.contenedor-precio-blend1{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: burlywood;
+    color: black;
+    font-size: 2.5rem;
+    list-style: none;
+}
+.contenedor-agregar-carrito1{
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-agregar-el-carro1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+.agregar-carrito1{
+    padding: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
 
+}
+.subtitulo-pack-blend2{
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+}
+.contenedor-pack-blend2{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor-imagen-pack-blend2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-pack-blend2{
+    width: 100%;
+}
+.contenedor-desc-img-pack-blend2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc-img-pack-blend2{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    list-style: none;
+}
+.contenedor-precio-blend2{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: burlywood;
+    color: black;
+    font-size: 2.5rem;
+    list-style: none;
+}
+.contenedor-agregar-carrito2{
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-agregar-el-carro2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+.agregar-carrito2{
+    padding: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+
+}
