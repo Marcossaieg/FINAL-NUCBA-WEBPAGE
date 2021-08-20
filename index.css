@@ -629,14 +629,14 @@ width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:initial;
+    align-items:center;
+    text-align: center;
     width: 100%;
 }
 .titulo-catas-online{
     width: 100%;
     font-size: 8rem;
     font-weight: 900;
-    text-align: initial;
 }
 .subtitulo-catas-online{
     margin-top: 2rem;
@@ -729,7 +729,7 @@ width: 100%;
     height: 0;
     border-left: 0rem solid transparent;
     border-right: 1rem solid transparent;
-    border-bottom: 1rem solid #7149c7;
+    border-bottom: 1rem solid black;
 }
 
 .subscribe-wrapper h4 {
@@ -745,7 +745,7 @@ width: 100%;
     position: absolute;
     bottom: 5rem;
     border: none;
-    border-bottom: 0.1rem solid #d4d4d4;
+    border-bottom: 0.1rem solid black;
     padding: 1rem;
     width: 70%;
     background: transparent;
@@ -754,7 +754,7 @@ width: 100%;
 
 .subscribe-wrapper input:focus {
     outline: none;
-    border-bottom: 0.1rem solid #a77cf4;
+    border-bottom: 0.1rem solid black;
 }
 
 .subscribe-wrapper .submit-btn {
@@ -778,4 +778,7 @@ width: 100%;
 
 .subscribe-wrapper .submit-btn:hover {
   background-color: burlywood;
+}
+.newsletter{
+    margin-bottom: 5rem;
 }
