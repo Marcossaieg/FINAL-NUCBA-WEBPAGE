@@ -809,6 +809,9 @@ width: 100%;
     justify-content: space-between;
     align-items: initial;
 }
+.text-justify:hover{
+    color: burlywood;
+}
 .contenedor-categorias-footer{
     width: 30%;
     display: flex;
@@ -879,6 +882,20 @@ width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.container-copyright{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.copyright-text{
+    font-size: 1.5rem;
+}
+.link-marcos-saieg{
+    font-size: 1.5rem;
 }
 
     .site-footer [class^=col-]
