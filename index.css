@@ -171,7 +171,7 @@ width: 100%;
 .desc-quienes-somos{
     
     text-align: initial;
-    font-size: 1rem;
+    font-size: 3rem;
     
 }
 
@@ -614,4 +614,168 @@ width: 100%;
     color: white;
     font-size: 2rem;
 
+}
+.contenedor-cata-online-total{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor-cata-titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:initial;
+    width: 100%;
+}
+.titulo-catas-online{
+    width: 100%;
+    font-size: 8rem;
+    font-weight: 900;
+    text-align: initial;
+}
+.subtitulo-catas-online{
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.contenedor-texto-imagen-cata-online{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cata-zoom{
+    width: 50%;
+}
+.cont-desc-cata-zoom{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.desc-cata-zoom{
+    list-style: none;
+    font-size: 5rem;
+}
+.desc-cata-zoom-reserva{
+    list-style: none;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contenedor-newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    background-color:white;
+    color: white;
+}
+
+.parent-wrapper {
+    margin-top: 5rem;  
+    position: relative;
+    width: 40rem;
+    height: 27rem;
+    background-image: url('http://www.imgbase.info/images/safe-wallpapers/digital_art/1_miscellaneous_digital_art/41750_1_miscellaneous_digital_art_simple_dark_shapes.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -600%;
+    background-color: #000;
+    border-radius: 0.4rem;
+    color: #FFF;
+    box-shadow: 0rem 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.close-btn {
+    margin: 2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.subscribe-wrapper {
+    position: absolute;
+    left: -3rem;
+    right: -3rem;
+    height: 20rem;
+    padding: 3rem;
+    background-image: url('https://i.imgur.com/MRjF1PL.png?1');
+    background-position-x: 272%;
+    background-position-y: -0.1rem;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #333;
+    box-shadow: 0rem 0rem 6rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+.subscribe-wrapper:after {
+    position: absolute;
+    content: "";
+    right: -1rem;
+    bottom: 7.1rem;
+    width: 0;
+    height: 0;
+    border-left: 0rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1rem solid #7149c7;
+}
+
+.subscribe-wrapper h4 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  
+}
+
+.subscribe-wrapper input {
+    font-size: 2rem ;
+    position: absolute;
+    bottom: 5rem;
+    border: none;
+    border-bottom: 0.1rem solid #d4d4d4;
+    padding: 1rem;
+    width: 70%;
+    background: transparent;
+    transition: all .25s ease;
+}
+
+.subscribe-wrapper input:focus {
+    outline: none;
+    border-bottom: 0.1rem solid #a77cf4;
+}
+
+.subscribe-wrapper .submit-btn {
+    position: absolute;
+    border-radius: 0.3px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background-color:black;
+    color: #FFF;
+    padding: 1.2rem 2.5rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    right: -1rem;
+    bottom: 3rem;
+    cursor: pointer;
+    transition: all .25s ease;
+    box-shadow: -0.5rem 0.6rem 2rem 0rem rgba(51, 51, 51, 0.4);
+}
+
+.subscribe-wrapper .submit-btn:hover {
+  background-color: burlywood;
 }
