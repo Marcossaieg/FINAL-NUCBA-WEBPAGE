@@ -145,6 +145,7 @@ width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 .titulo-quienes-somos{
     margin: 1rem;
@@ -255,7 +256,7 @@ width: 100%;
 }
 .precio-d-vino{
     padding: 0.5rem;
-    background-color: burlywood;
+    background-color: rgb(222, 184, 135);
     font-size: 1.5rem;
 }
 .agregar-a-carrito{
