@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
+    box-sizing:border-box
 }
 
 @font-face{
@@ -129,33 +130,33 @@ width: 100%;
         
 }
 .img-header{
-    width: 100%;
+    width: 95%;
 }
 .section-quienes-somos{
     margin-top: 2rem;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .cont-titulo-quienes-somos{
     width:100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     
 }
 .titulo-quienes-somos{
-    margin: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 35%;
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: 900;
 }
+
 .linea-division{
     /* me falta estilar la linea entre quienes
      somos y el contenido del texto */
@@ -170,8 +171,8 @@ width: 100%;
 }
 .desc-quienes-somos{
     
-    text-align: initial;
-    font-size: 3rem;
+    text-align: center;
+    font-size: 2rem;
     
 }
 
@@ -181,7 +182,7 @@ width: 100%;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
+    /*ACA PUEDO SACARLO Y MEJORAR LA VISTA DE QUIENES SOMOS*/
 }
 .contenedor-galeria{
     margin-top: 2.5rem;
@@ -211,7 +212,7 @@ width: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: initial;
+    justify-content: center;
     align-items: center;
 
 }
@@ -220,8 +221,8 @@ width: 100%;
     font-size: 6rem;
     font-weight: 700;
     display: flex;
-    justify-content: initial;
-    align-items: initial;
+    justify-content: center;
+    align-items: center;
 }
 .vino-tinto{
     width: 100%;
@@ -232,19 +233,19 @@ width: 100%;
     align-items: initial;
 }
 .contenedor-cepas-vino{
-    padding-top: 2rem;
     width: 100%;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
 }
 .cepa-vino{
-    margin: 1rem;
+    list-style: none;
 }
 .contenedor-info-cepa-vino{
+    width: 100%; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -267,6 +268,7 @@ width: 100%;
     background-color: black;
 }
 .vino-tinto-2-linea{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -283,6 +285,7 @@ width: 100%;
     align-items: initial;
 }
 .vino-rosado-naranjo-2-linea{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -298,7 +301,17 @@ width: 100%;
     justify-content: initial;
     align-items: initial;
 }
+.contenedor-cepas-vino1{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
 .vino-blanco-2-linea{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -306,6 +319,7 @@ width: 100%;
     margin-top: 2.5rem; 
 }
 .pack-blends{
+    margin-top: 3rem;
     width: 100%;
     display: flex;
     justify-content: initial;
@@ -323,8 +337,8 @@ width: 100%;
     font-size: 7rem;
     font-weight: 700;
     display: flex;
-    justify-content: initial;
-    align-items: initial;
+    justify-content: center;
+    align-items: center;
 }
 .subtitulo-pack-blend{
     margin-top: 2rem;
@@ -358,6 +372,14 @@ width: 100%;
     justify-content: center;
     align-items: center;
 }
+.contenedor-desc-img-pack-blend:hover{
+    padding: 0.3rem;
+    box-shadow: inset 0 0 0 2rem var(--hover);
+    box-sizing: inherit;
+    border:solid 0.5rem burlywood;
+    font-weight: bold;
+    cursor:pointer;
+}
 .desc-img-pack-blend{
     width: 100%;
     text-align: center;
@@ -388,14 +410,26 @@ width: 100%;
     background-color: black;
 }
 .agregar-carrito{
-    padding: 1rem;
+    margin: 1rem;
+    width: 80%;
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
-    font-size: 2rem;
+    
+
+}
+.agregar-carrito-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    background-color: transparent;
+    border: none;
+    color: white;
 
 }
 /*ACA DEBERIA AGREGAR BUTON, Y QUE REDIRECCIONE A ALGUN  SCRIPT*/
@@ -780,9 +814,11 @@ width: 100%;
   background-color: burlywood;
 }
 .newsletter{
+    padding: 2% 1%;
     margin-bottom: 5rem;
 }
 .site-footer{
+    padding: 2% 1%;
     width: 100%;
     display: flex;
     flex-direction: column;
